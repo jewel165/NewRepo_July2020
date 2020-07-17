@@ -82,7 +82,7 @@ public class BasicSetUp extends WebdriverAPI{
 		
 	
 			// dont forget to change driver for windows OS. ex:chromedriver.exe
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");// sets the driver// car ingintion
+			System.setProperty("webdriver.chrome.driver", "./Drivers/winChrome83.exe");// sets the driver// car ingintion
 			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			//System.out.println("Navigating to Amazon");

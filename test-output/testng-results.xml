@@ -2,47 +2,47 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12331" started-at="2020-07-16T20:04:23 EDT" finished-at="2020-07-16T20:04:35 EDT">
+  <suite name="Default suite" duration-ms="33126" started-at="2020-07-16T21:38:56 EDT" finished-at="2020-07-16T21:39:29 EDT">
     <groups>
       <group name="Random">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
+        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
       </group> <!-- Random -->
       <group name="june15thFailure">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
+        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
       </group> <!-- june15thFailure -->
       <group name="az001">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
+        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
       </group> <!-- az001 -->
       <group name="AZtest">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
+        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
       </group> <!-- AZtest -->
     </groups>
-    <test name="Default test" duration-ms="12331" started-at="2020-07-16T20:04:23 EDT" finished-at="2020-07-16T20:04:35 EDT">
+    <test name="Default test" duration-ms="33126" started-at="2020-07-16T21:38:56 EDT" finished-at="2020-07-16T21:39:29 EDT">
       <class name="testSets.AZsearch_Test">
-        <test-method status="PASS" signature="SetuoReporter()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="SetuoReporter" is-config="true" duration-ms="190" started-at="2020-07-16T20:04:23 EDT" finished-at="2020-07-16T20:04:23 EDT">
+        <test-method status="PASS" signature="SetuoReporter()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="SetuoReporter" is-config="true" duration-ms="679" started-at="2020-07-16T21:38:55 EDT" finished-at="2020-07-16T21:38:56 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetuoReporter -->
-        <test-method status="PASS" signature="BeforeMethods()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="BeforeMethods" is-config="true" duration-ms="5231" started-at="2020-07-16T20:04:23 EDT" finished-at="2020-07-16T20:04:28 EDT">
+        <test-method status="PASS" signature="BeforeMethods()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="BeforeMethods" is-config="true" duration-ms="13579" started-at="2020-07-16T21:38:56 EDT" finished-at="2020-07-16T21:39:10 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethods -->
-        <test-method status="PASS" signature="AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="AmazonSearch" duration-ms="6822" started-at="2020-07-16T20:04:28 EDT" finished-at="2020-07-16T20:04:35 EDT">
+        <test-method status="PASS" signature="AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" duration-ms="17704" started-at="2020-07-16T21:39:10 EDT" finished-at="2020-07-16T21:39:27 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AmazonSearch -->
-        <test-method status="PASS" signature="AFTERMETHODS(org.testng.ITestResult)[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="AFTERMETHODS" is-config="true" duration-ms="234" started-at="2020-07-16T20:04:35 EDT" finished-at="2020-07-16T20:04:35 EDT">
+        <test-method status="PASS" signature="AFTERMETHODS(org.testng.ITestResult)[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AFTERMETHODS" is-config="true" duration-ms="1743" started-at="2020-07-16T21:39:27 EDT" finished-at="2020-07-16T21:39:29 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AmazonSearch status=SUCCESS method=AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@9660f4e] output={null}]]]>
+                <![CDATA[[TestResult name=AmazonSearch status=SUCCESS method=AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AFTERMETHODS -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:testSets.AZsearch_Test@9660f4e]" name="cleanup" is-config="true" duration-ms="394" started-at="2020-07-16T20:04:35 EDT" finished-at="2020-07-16T20:04:36 EDT">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="cleanup" is-config="true" duration-ms="1669" started-at="2020-07-16T21:39:29 EDT" finished-at="2020-07-16T21:39:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->

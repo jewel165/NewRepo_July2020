@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testSets.Demo3">
+      <class name="testSets.AZsearch_Test">
         <methods>
+          <include name="AmazonSearch"/>
           <include name="SetuoReporter"/>
           <include name="AFTERMETHODS"/>
-          <include name="AmazonTittle"/>
           <include name="cleanup"/>
           <include name="BeforeMethods"/>
         </methods>
-      </class> <!-- testSets.Demo3 -->
+      </class> <!-- testSets.AZsearch_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
