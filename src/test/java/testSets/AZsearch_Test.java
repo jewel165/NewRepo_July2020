@@ -21,7 +21,7 @@ public class AZsearch_Test extends BasicSetUp{
 	//WebDriver driver;
 	
 	String AMAZOM = "https://www.amazon.com";
-	AmazonHomepage_Page loc = new AmazonHomepage_Page();
+	public AmazonHomepage_Page loc = new AmazonHomepage_Page();
 	
 	
 	@Test(enabled = true, groups = {"AZtest","Random","az001","june15thFailure"})

@@ -1,52 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33126" started-at="2020-07-16T21:38:56 EDT" finished-at="2020-07-16T21:39:29 EDT">
+  <suite name="Default suite" duration-ms="59724" started-at="2020-07-16T22:42:20 EDT" finished-at="2020-07-16T22:43:20 EDT">
     <groups>
-      <group name="Random">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
-      </group> <!-- Random -->
-      <group name="june15thFailure">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
-      </group> <!-- june15thFailure -->
-      <group name="az001">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
-      </group> <!-- az001 -->
-      <group name="AZtest">
-        <method signature="AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" class="testSets.AZsearch_Test"/>
-      </group> <!-- AZtest -->
     </groups>
-    <test name="Default test" duration-ms="33126" started-at="2020-07-16T21:38:56 EDT" finished-at="2020-07-16T21:39:29 EDT">
-      <class name="testSets.AZsearch_Test">
-        <test-method status="PASS" signature="SetuoReporter()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="SetuoReporter" is-config="true" duration-ms="679" started-at="2020-07-16T21:38:55 EDT" finished-at="2020-07-16T21:38:56 EDT">
+    <test name="Default test" duration-ms="59724" started-at="2020-07-16T22:42:20 EDT" finished-at="2020-07-16T22:43:20 EDT">
+      <class name="testSets.AmazonCart_Test">
+        <test-method status="PASS" signature="SetuoReporter()[pri:0, instance:testSets.AmazonCart_Test@68bbe345]" name="SetuoReporter" is-config="true" duration-ms="366" started-at="2020-07-16T22:42:20 EDT" finished-at="2020-07-16T22:42:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetuoReporter -->
-        <test-method status="PASS" signature="BeforeMethods()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="BeforeMethods" is-config="true" duration-ms="13579" started-at="2020-07-16T21:38:56 EDT" finished-at="2020-07-16T21:39:10 EDT">
+        <test-method status="PASS" signature="BeforeMethods()[pri:0, instance:testSets.AmazonCart_Test@68bbe345]" name="BeforeMethods" is-config="true" duration-ms="9381" started-at="2020-07-16T22:42:20 EDT" finished-at="2020-07-16T22:42:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethods -->
-        <test-method status="PASS" signature="AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AmazonSearch" duration-ms="17704" started-at="2020-07-16T21:39:10 EDT" finished-at="2020-07-16T21:39:27 EDT">
+        <test-method status="PASS" signature="testAmazonCart()[pri:0, instance:testSets.AmazonCart_Test@68bbe345]" name="testAmazonCart" duration-ms="48864" started-at="2020-07-16T22:42:30 EDT" finished-at="2020-07-16T22:43:19 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSearch -->
-        <test-method status="PASS" signature="AFTERMETHODS(org.testng.ITestResult)[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="AFTERMETHODS" is-config="true" duration-ms="1743" started-at="2020-07-16T21:39:27 EDT" finished-at="2020-07-16T21:39:29 EDT">
+        </test-method> <!-- testAmazonCart -->
+        <test-method status="PASS" signature="AFTERMETHODS(org.testng.ITestResult)[pri:0, instance:testSets.AmazonCart_Test@68bbe345]" name="AFTERMETHODS" is-config="true" duration-ms="1409" started-at="2020-07-16T22:43:19 EDT" finished-at="2020-07-16T22:43:20 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AmazonSearch status=SUCCESS method=AZsearch_Test.AmazonSearch()[pri:0, instance:testSets.AZsearch_Test@68bbe345] output={null}]]]>
+                <![CDATA[[TestResult name=testAmazonCart status=SUCCESS method=AmazonCart_Test.testAmazonCart()[pri:0, instance:testSets.AmazonCart_Test@68bbe345] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AFTERMETHODS -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:testSets.AZsearch_Test@68bbe345]" name="cleanup" is-config="true" duration-ms="1669" started-at="2020-07-16T21:39:29 EDT" finished-at="2020-07-16T21:39:31 EDT">
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:testSets.AmazonCart_Test@68bbe345]" name="cleanup" is-config="true" duration-ms="756" started-at="2020-07-16T22:43:20 EDT" finished-at="2020-07-16T22:43:21 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- testSets.AZsearch_Test -->
+      </class> <!-- testSets.AmazonCart_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
